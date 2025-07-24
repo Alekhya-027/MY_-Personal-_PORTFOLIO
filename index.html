@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="info">
+            <img src="./Alekhya.png" alt="">
+            <div class="details">
+                <p>RAMBHA ALEKHYA</p>
+                <span>Frontend Developer</span>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./ALEKHYARESUME.pdf" download="">Resume</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="about-me" id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm <span>RAMBHA ALEKHYA</span>, a passionate Frontend developer and designer focused on building visually stunning, high-performance web apps. I love turning ideas into beautifully crafted products. Whether collaborating with teams or working solo, I always strive for clean code and intuitive UX.</p>
+        </div>
+        <div class="projects section-title" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-section">
+                <div class="project">
+                    <img src="./calculator.jpeg" alt="">
+                    <h3 class="project-title">Calculator</h3>
+                    <p class="project-info">Designed and Developed an Interactive and User-Friendly Calculator </p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                    </div>
+                    <button class="btn"><a href="https://alekhya-027.github.io/Calculator/">View Project</a></button>
+                </div>
+                <div class="project">
+                    <img src="./WeatherProject.png" alt="">
+                    <h3 class="project-title">Weather API</h3>
+                    <p class="project-info">Developed a Weather API project,it displays the weather details of particular city.</p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                        <p class="tech">JavaScript</p>
+                    </div>
+                    <button class="btn"><a href=" https://alekhya-027.github.io/Weather-App/">View Project</a></button>
+                </div>
+                <div class="project">
+                    <img src="./Musicplayer.png" alt="">
+                    <h3 class="project-title">MUSIC PLAYER</h3>
+                    <p class="project-info">A Music Player is a  web-based application that allows users to play, pause, skip, and manage audio tracks through an intuitive and responsive interface. </p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                        <p class="tech">JavaScript</p>
+                    </div>
+                    <button class="btn"><a href="https://alekhya-027.github.io/Musicplayer/">View Project</a></button>
+                </div>
+                <div class="project">
+                    <img src="./ToDoList.png" alt="">
+                    <h3 class="project-title">To-Do List Application</h3>
+                    <p class="project-info"> Build a ToDo List Application,where we can add,delete,edit and update tasks.</p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                         <p class="tech">JavaScript</p>
+                    </div>
+                    <button class="btn"><a href=" https://alekhya-027.github.io/To-Do-List/">View Project</a></button>
+                </div>
+                
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+        <div class="skills section-title" id="skills">
+            <h2>Skills & Tools</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="./html5.svg" alt="html-icon" class="skill-image">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                    <img src="./css3.svg" alt="css-icon" class="skill-image">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                    <img src="./js.svg" alt="js-icon" class="skill-image">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="./java.jpeg" alt="java-icon" class="skill-image">
+                    <p>java</p>
+                </div>
+                <div class="skill">
+                    <img src="./git.svg" alt="git-icon" class="skill-image">
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <img src="./github.svg" alt="git-icon" class="skill-image">
+                    <p>Git</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form id="contactForm" action="https://formsubmit.co/rambhaalekhya@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" placeholder="Message" rows="5"></textarea>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://alekhya-027.github.io/MY_PORTFOLIO/">
+                <input type="submit" value="Send"/>
+                </form>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        &copy;2025 Rambha Alekhya
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
